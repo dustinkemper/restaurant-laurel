@@ -1,0 +1,42 @@
+.page-wrap
+  min-height: 100%
+  margin-bottom: -100px
+  &:after
+    content: ""
+    display: block
+    height: 100px
+
+footer
+  box-sizing: border-box
+  height: 100px
+  padding: 8px 40px
+  background: $black
+  text-align: center
+  overflow: hidden
+  @include clearfix
+  @media (min-width: 600px)
+    padding: 38px 40px
+
+
+  p
+    display: block
+    font-size: 13px
+    line-height: 24px
+    color: $text-light
+    @media (min-width: 600px)
+      display: inline-block
+      float: left
+
+  span a
+    color: #444
+    &:hover
+      color: lighten(#444, 20)
+
+  nav
+    display: block
+    @media (min-width: 600px)
+      float: right
+
+  nav a
+    display: inline-block
+    padding: 0 10px

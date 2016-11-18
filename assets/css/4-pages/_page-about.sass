@@ -1,0 +1,59 @@
+.page-about
+
+  .content
+    max-width: 960px
+    margin: 0 auto
+    padding: 20px
+
+  article
+    margin: 2em auto 3em
+
+  h1
+    font-size: 32px
+    font-family: "Gentium Basic", Georgia, serif
+
+  h1.about
+    margin-top: 1em
+    @media (min-width: 960px)
+      margin-top: 2.2em
+    &:before
+      content: 'About'
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif
+      color: lighten($robin, 25)
+      font-size: 60px
+      z-index: -1
+      position: absolute
+      margin: -32px 0 0 20px
+      @media (min-width: 960px)
+        font-size: 120px
+        margin: -76px 0 0 40px
+
+
+  .photo-chef
+    background-image: url(/assets/img/Elmi-headshot.jpg)
+    height: 340px
+    background-size: cover
+    background-position: center bottom
+    min-width: 25%
+
+  p
+    margin: 20px 0
+    @media (min-width: 480px)
+      // margin: 0
+    .green
+      color: $robin
+
+  .green-bg
+    background: $robin
+    color: $white
+    padding-bottom: 60px
+
+    h1, h4, a
+      color: $white
+
+    a
+      font-weight: bold
+
+    .map
+      @media (min-width: 480px)
+        padding: 0 40px 0 60px

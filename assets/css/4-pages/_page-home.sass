@@ -1,0 +1,69 @@
+body
+  background-color: $bg
+  @media (min-width: 960px)
+    font-size: 20px
+
+.page-home
+  text-align: center
+
+  #photo-main
+    background-image: url(/assets/img/Laurel-337.jpg)
+    background-size: cover
+    background-position: center
+    height: 35vh
+    @media (min-width: 960px)
+      height: 100vh
+      float: right
+
+  #nav-main
+    display: none
+    @media (min-width: 960px)
+      display: block
+      margin-top: 1.2em
+      margin-bottom: 3em
+      a
+        color: $text-light
+        &:hover
+          color: $black
+
+  main
+    padding: 0 24px
+    @media (min-width: 960px)
+      margin-top: 10%
+      margin-top: calc(43% - 250px)
+      h1.big
+        font-size: 2rem
+
+
+    #logo img
+      top: -40
+      width: 10em
+      margin-top: -1.3em
+      @media (min-width: 600px)
+        width: auto
+      @media (min-width: 960px)
+        top: 0
+        width: auto
+        margin: 0 0 3em
+
+    #reserve-main
+      display: none
+      @media (min-width: 600px)
+        display: inline-block
+
+  h1
+    color: $robin
+    font-family: 'Gentium Basic'
+
+  p
+    color: $text-light
+    padding: 0 24px
+
+#social
+  width: 100vw
+  position: absolute
+  bottom: .85em
+  @media (min-width: 960px)
+    width: 50vw
+  a
+    padding: 0 12px

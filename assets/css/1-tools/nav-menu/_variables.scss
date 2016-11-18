@@ -1,0 +1,18 @@
+// colors
+
+$color-1: $robin;
+$color-2: $white;
+$color-3: lighten($color-1, 10%);
+$color-4: $white;
+
+// fonts
+
+$primary-font: 'Open Sans', sans-serif;
+
+// z-index
+
+$content-zindex: 1;
+$layer-nav-zindex: 2;
+$nav-zindex: 3;
+$layer-content-zindex: 4;
+$trigger-zindex: 5;
