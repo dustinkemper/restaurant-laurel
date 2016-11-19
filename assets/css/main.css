@@ -1191,7 +1191,7 @@ body {
   padding: 20px; }
 .page-press h1 {
   font-size: 32px;
-  font-family: "Gentium Basic", Georgia, serif;
+  font-family: "Gentium Basic", Gentium, Georgia, serif;
   margin-bottom: 2em; }
 .page-press h1.press {
   margin-top: 1em; }
@@ -1220,3 +1220,62 @@ body {
   .page-press .listing p {
     font-family: "Gentium Basic", Gentium, Georgia, serif;
     margin: 0 0 0.25em; }
+
+.page-menu .content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px; }
+.page-menu h1 {
+  font-size: 32px;
+  font-family: "Gentium Basic", Gentium, Georgia, serif;
+  margin-bottom: 2em; }
+.page-menu h1.menu {
+  margin-top: 1em; }
+  @media (min-width: 960px) {
+    .page-menu h1.menu {
+      margin-top: 2.2em; } }
+  .page-menu h1.menu:before {
+    content: "Menu";
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #91dddb;
+    font-size: 60px;
+    z-index: -1;
+    position: absolute;
+    margin: -32px 0 0 20px; }
+    @media (min-width: 960px) {
+      .page-menu h1.menu:before {
+        font-size: 120px;
+        margin: -76px 0 0 40px; } }
+.page-menu .menu-button {
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 0; }
+  .page-menu .menu-button a {
+    height: 60px;
+    line-height: 60px; }
+
+.page-gallery .content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px; }
+.page-gallery h1 {
+  font-size: 32px;
+  font-family: "Gentium Basic", Gentium, Georgia, serif;
+  margin-bottom: 2em; }
+.page-gallery h1.gallery {
+  margin-top: 1em; }
+  @media (min-width: 960px) {
+    .page-gallery h1.gallery {
+      margin-top: 2.2em; } }
+  .page-gallery h1.gallery:before {
+    content: "Gallery";
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #91dddb;
+    font-size: 60px;
+    z-index: -1;
+    position: absolute;
+    margin: -32px 0 0 20px; }
+    @media (min-width: 960px) {
+      .page-gallery h1.gallery:before {
+        font-size: 120px;
+        margin: -76px 0 0 40px; } }
