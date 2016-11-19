@@ -804,6 +804,14 @@ a {
 #social a img:hover, #social a img:focus {
   opacity: 0.8; }
 
+.press-link {
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #38B6B2; }
+  .press-link:hover {
+    color: #7dd7d4; }
+
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -1027,7 +1035,7 @@ input[type="button"] {
 footer {
   box-sizing: border-box;
   height: 100px;
-  padding: 8px 40px;
+  padding: 10px 40px 0;
   background: #111;
   text-align: center;
   overflow: hidden; }
@@ -1041,7 +1049,6 @@ footer {
   footer p {
     display: block;
     font-size: 13px;
-    line-height: 24px;
     color: #9e9e9e; }
     @media (min-width: 600px) {
       footer p {
@@ -1177,3 +1184,39 @@ body {
   @media (min-width: 480px) {
     .page-about .green-bg .map {
       padding: 0 40px 0 60px; } }
+
+.page-press .content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px; }
+.page-press h1 {
+  font-size: 32px;
+  font-family: "Gentium Basic", Georgia, serif;
+  margin-bottom: 2em; }
+.page-press h1.press {
+  margin-top: 1em; }
+  @media (min-width: 960px) {
+    .page-press h1.press {
+      margin-top: 2.2em; } }
+  .page-press h1.press:before {
+    content: "Press";
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #91dddb;
+    font-size: 60px;
+    z-index: -1;
+    position: absolute;
+    margin: -32px 0 0 20px; }
+    @media (min-width: 960px) {
+      .page-press h1.press:before {
+        font-size: 120px;
+        margin: -76px 0 0 40px; } }
+.page-press .listing {
+  text-align: center;
+  margin-bottom: 2em;
+  padding: 0; }
+  .page-press .listing h3 {
+    text-transform: uppercase;
+    margin: 0 0 0.25em; }
+  .page-press .listing p {
+    font-family: "Gentium Basic", Gentium, Georgia, serif;
+    margin: 0 0 0.25em; }
