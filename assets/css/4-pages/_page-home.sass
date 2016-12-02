@@ -7,7 +7,7 @@ body
   text-align: center
 
   #photo-main
-    background-image: url(/assets/img/Laurel-337.jpg)
+    background-image: url(../img/Laurel-337.jpg)
     background-size: cover
     background-position: center
     height: 35vh
@@ -20,7 +20,7 @@ body
     @media (min-width: 960px)
       display: block
       margin-top: 1.2em
-      margin-bottom: 3em
+      margin-bottom: 2em
       a
         color: $text-light
         &:hover
@@ -29,10 +29,13 @@ body
   main
     padding: 0 24px
     @media (min-width: 960px)
-      margin-top: 10%
-      margin-top: calc(43% - 250px)
+      margin-top: 10vh
+      // margin-top: calc(43% - 250px)
       h1.big
-        font-size: 2rem
+        font-size: 1.6rem
+    // @media (max-height: 686px)
+    //   margin-top: -12%
+    //   transform: scale(.74)
 
 
     #logo img
@@ -40,11 +43,11 @@ body
       width: 10em
       margin-top: -1.3em
       @media (min-width: 600px)
-        width: auto
+        width: 12em
       @media (min-width: 960px)
         top: 0
-        width: auto
-        margin: 0 0 3em
+        width: 12em
+        margin: 0 0 1em
 
     #reserve-main
       display: none
@@ -60,10 +63,11 @@ body
     padding: 0 24px
 
 #social
-  width: 100vw
-  position: absolute
-  bottom: .85em
+  // width: 100vw
+  // position: absolute
+  // bottom: .85em
+  margin-top: 2em
   @media (min-width: 960px)
-    width: 50vw
+    // width: 50vw
   a
     padding: 0 12px
